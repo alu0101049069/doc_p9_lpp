@@ -1,0 +1,18 @@
+Fri, 20 Dec 2019 08:51:14 +0000
+./Gemfile.lock	Fri, 22 Nov 2019 11:13:18 +0000
+./README.md	Mon, 18 Nov 2019 10:07:17 +0000
+./bin/setup	Mon, 18 Nov 2019 10:05:08 +0000
+./bin/console	Mon, 18 Nov 2019 10:05:08 +0000
+./lib/comida.rb	Fri, 20 Dec 2019 08:50:09 +0000
+./lib/comida/version.rb	Fri, 20 Dec 2019 08:49:04 +0000
+./lib/comida/lista.rb	Fri, 20 Dec 2019 08:39:40 +0000
+./lib/comida/plato.rb	Fri, 20 Dec 2019 08:39:07 +0000
+./lib/comida/alimentos.rb	Fri, 20 Dec 2019 08:38:57 +0000
+./spec/spec_helper.rb	Mon, 18 Nov 2019 10:05:08 +0000
+./spec/comida_spec.rb	Fri, 20 Dec 2019 08:43:20 +0000
+./CODE_OF_CONDUCT.md	Mon, 18 Nov 2019 10:05:08 +0000
+./Rakefile	Mon, 18 Nov 2019 10:05:08 +0000
+./Guardfile	Fri, 22 Nov 2019 11:13:23 +0000
+./LICENSE.txt	Mon, 18 Nov 2019 10:05:08 +0000
+./Gemfile	Fri, 22 Nov 2019 11:07:54 +0000
+./comida.gemspec	Fri, 22 Nov 2019 11:12:58 +0000

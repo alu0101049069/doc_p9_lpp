@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class PlatoA - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link"><a href="PlatoN.html">PlatoN</a>
+  
+</div>
+
+    <div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><span class="include">Comparable</span>
+  
+  
+  </ul>
+</div>
+
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-3C-3D-3E">#&lt;=&gt;</a>
+    
+    <li ><a href="#method-i-initalize">#initalize</a>
+    
+    <li ><a href="#method-i-to_str">#to_str</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-PlatoA">
+  <h1 id="class-PlatoA" class="class">
+    class PlatoA
+  </h1>
+
+  <section class="description">
+    
+<p>clase que hereda de la clase <a href="PlatoN.html">PlatoN</a></p>
+
+  </section>
+
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      
+      <div id="attribute-i-co2" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">co2</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>como atributos están el terreno y la emisión</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-m2" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">m2</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>como atributos están el terreno y la emisión</p>
+        
+        </div>
+      </div>
+      
+    </section>
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-3C-3D-3E" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">&lt;=&gt;</span><span
+            class="method-args">(otro_plato)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>se crea la función para comparar las huellas de ambos platos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="3C-3D-3E-source">
+            <pre><span class="ruby-comment"># File lib/comida/plato.rb, line 284</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">&lt;=&gt;</span>(<span class="ruby-identifier">otro_plato</span>)
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">huellanut</span> <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">otro_plato</span>.<span class="ruby-identifier">huellanut</span>
+       
+  <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-initalize" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">initalize</span><span
+            class="method-args">(co2, m2)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>se inicializan los atributos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="initalize-source">
+            <pre><span class="ruby-comment"># File lib/comida/plato.rb, line 275</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initalize</span>(<span class="ruby-identifier">co2</span>, <span class="ruby-identifier">m2</span>)
+
+<span class="ruby-ivar">@co2</span> = <span class="ruby-identifier">co2</span>
+<span class="ruby-ivar">@m2</span> = <span class="ruby-identifier">m2</span>
+
+
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-to_str" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">to_str</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>se pasa a string el valor energético</p>
+<ul><li>
+<p>se recorre la lista y se llama la la función to_s de ruby</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="to_str-source">
+            <pre><span class="ruby-comment"># File lib/comida/plato.rb, line 343</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">to_str</span>
+ <span class="ruby-identifier">resultados</span> = <span class="ruby-string">&quot;&quot;</span>
+  <span class="ruby-identifier">posicion</span> = <span class="ruby-ivar">@listali</span>.<span class="ruby-identifier">cabeza</span>
+  <span class="ruby-identifier">valor</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">vct</span> 
+  <span class="ruby-identifier">resultados</span> = <span class="ruby-identifier">resultados</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">valor</span>.<span class="ruby-identifier">to_s</span> 
+  
+
+ <span class="ruby-keyword">return</span> <span class="ruby-identifier">resultados</span>
+  
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.0.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
